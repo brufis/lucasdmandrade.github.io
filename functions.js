@@ -39,6 +39,7 @@ buttonCalcular.onclick = function principal(){
     console.log(verifica_1, " ", verifica_2)
     console.log(listaDados)
     console.log(listaQnt)
+
          function criarTabela(conteudo) {
   var tabela = document.createElement("table");
   var thead = document.createElement("thead");
@@ -58,5 +59,4 @@ buttonCalcular.onclick = function principal(){
   tabela.appendChild(tbody);
   return tabela;
 
-}
-}
+}}
